@@ -1,0 +1,72 @@
+#while statement
+i=1
+while i<6:
+    print(i)
+    i+=1
+
+#break statement
+i=1
+while i<6:
+    print(i)
+    if i==3:
+        break
+    i+=1
+
+#continue statement
+i=0
+while i<6:
+    i+=1
+    if i==3:
+        continue
+    print(i)
+
+#Else statement
+i=1
+while i < 6:
+    print(i)
+    i+=1
+else:
+    print("i is no longer less than 6")
+
+#for statement
+fruits=["apple","orange","mango"]
+for x in fruits:
+    print(x)
+
+#break statement in for loop
+fruits=["apple","banana","cherry"]
+for x in fruits:
+    print(x)
+    if x =="banana":
+        break
+
+#range() function
+range (2,30,3)
+for x in range(2,30,3):
+    print(x)
+
+#nested loop
+adj =["red","big","tasty"]
+fruits=["apple","banana","cherry"]
+
+for x in adj:
+    for y in fruits:
+        print(x,y)
+
+#pass statement
+for x in [0,1,2,]:
+    pass
+
+
+#for statement
+list=[1,2,3,7]
+sum=0
+for x in list:
+     sum=sum+x
+print("sum=",sum)
+#for statement
+list=[1,2,3,7]
+sum=0
+for x in list:
+     sum=sum+x
+     print("sum=",sum)
